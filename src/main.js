@@ -13,7 +13,7 @@ Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
-axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://localhost:3000/v1' : 'http://localhost:3000/v1'
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://backend-agenda.herokuapp.com/v1' : 'http://localhost:3000/v1'
 
 /* eslint-disable no-new */
 new Vue({
